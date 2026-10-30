@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ana Silva",
+      "email": "ana.silva@example.com",
+      "role": "admin",
+      "createdAt": "2026-01-15T10:00:00Z",
+      "body": "Hello Carlos, welcome to the platform see you late my friend."
+    },
+    {
+      "id": 2,
+      "name": "Carlos Souza",
+      "email": "carlos.souza@example.com",
+      "role": "user",
+      "createdAt": "2026-02-20T14:30:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Mariana Lima",
+      "email": "mariana.lima@example.com",
+      "role": "user",
+      "createdAt": "2026-03-05T09:15:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "senderEmail": "ana.silva@example.com",
+      "recipientEmail": "carlos.souza@example.com",
+      "subject": "Welcome!",
+      "body": "Hello Carlos, welcome to the platform.",
+      "sentAt": "2026-03-01T11:00:00Z"
+    }
+  ]
+}
