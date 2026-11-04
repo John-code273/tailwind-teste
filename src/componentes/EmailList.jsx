@@ -18,9 +18,12 @@ export default function EmailList() {
         ))}
       </div>
       {emailShow && (
-        <section aria-live="polite" className="bg-cyan-900 p-10 max-w-xl max-h-lvh h-[calc(100vh_-_7rem)] whitespace-pre-wrap rounded-lg ">
+        <section
+          aria-live="polite"
+          className="bg-cyan-900 p-10 max-w-xl max-h-lvh h-[calc(100vh_-_7rem)] whitespace-pre-wrap rounded-lg "
+        >
           <h2 className="text-2xl pb-2">{emailShow.name}</h2>
-          <p >{emailShow.email}</p>
+          <p>{emailShow.email}</p>
           <p>{emailShow.role}</p>
           <p className="pt-10 text-xl flex-wrap ">{emailShow.body}</p>
         </section>

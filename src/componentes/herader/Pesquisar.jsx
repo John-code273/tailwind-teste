@@ -4,9 +4,7 @@ export default function Pesquisar() {
     <div>
       <form
         className="flex-grow flex min-w-0 p-2 max-w-full"
-        onSubmit={
-          (ev) => ev.preventDefault()
-        }
+        onSubmit={(ev) => ev.preventDefault()}
       >
         <input
           type="text"
